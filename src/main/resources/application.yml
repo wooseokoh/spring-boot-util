@@ -18,6 +18,9 @@ spring:
 mybatis:
   type-aliases-package: com.project.springBoot.util.dto
 custom:
+  kakaoRest:
+    apiKey: 419660e36761dae441984236a95c4317
+    redirectUrl: http://localhost:8021/usr/member/doLoginByKakoRest
   genFileDirPath: D:/work/spring-boot-util-file
   logging:
     dir: log
