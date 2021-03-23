@@ -56,4 +56,16 @@ public class MemberService {
 
 		return new ResultData("S-1", "가입에 성공하였습니다.", "id", id);
 	}
+	
+	public Member getMemberByAuthKey(String authKey) {
+		return memberDao.getMemberByAuthKey(authKey);
+	}
+
+	public Member getMember(int id) {
+		return memberDao.getMember(id);
+	}
+
+	public boolean isAdmin(Member actor) {
+		return actor.getAuthLevel() == 7;
+	}
 }

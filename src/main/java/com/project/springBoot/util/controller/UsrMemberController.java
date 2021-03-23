@@ -60,4 +60,16 @@ public class UsrMemberController {
 		
 		return new ResultData("S-1", "로그인 되었습니다.", "id", id);
 	}
+	
+	@GetMapping("/usr/member/doLogout")
+	@ResponseBody
+	public ResultData doLogout(HttpSession session) {
+		int id = -1;
+		if (session.getAttribute("loginedMemberId") != null) {
+			id = (int) session.getAttribute("loginedMemberId");
+			session.removeAttribute("loginedMemberId");
+		}
+
+		return new ResultData("S-1", "로그아웃 되었습니다.", "id", id);
+	}
 }
