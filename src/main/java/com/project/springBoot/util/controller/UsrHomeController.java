@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.project.springBoot.util.Util;
+import com.project.springBoot.util.Util.Util;
 import com.project.springBoot.util.dto.ResultData;
 import com.project.springBoot.util.dto.api.Aligo__send__ResponseBody;
 

@@ -10,7 +10,7 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.project.springBoot.util.Util;
+import com.project.springBoot.util.Util.Util;
 import com.project.springBoot.util.dto.api.KapiKakaoCom__v2_user_me__ResponseBody;
 import com.project.springBoot.util.dto.api.KauthKakaoCom__oauth_token__ResponseBody;
 

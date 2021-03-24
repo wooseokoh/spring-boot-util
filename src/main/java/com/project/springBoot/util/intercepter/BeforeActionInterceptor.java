@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import com.project.springBoot.util.Util;
+import com.project.springBoot.util.Util.Util;
 import com.project.springBoot.util.dto.Member;
 import com.project.springBoot.util.service.MemberService;
 

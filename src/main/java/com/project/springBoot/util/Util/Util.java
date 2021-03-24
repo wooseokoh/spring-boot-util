@@ -1,4 +1,4 @@
-package com.project.springBoot.util;
+package com.project.springBoot.util.Util;
 
 import java.io.BufferedReader;
 import java.io.File;

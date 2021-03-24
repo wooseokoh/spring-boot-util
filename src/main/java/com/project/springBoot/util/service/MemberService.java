@@ -5,7 +5,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.project.springBoot.util.Util;
+import com.project.springBoot.util.Util.Util;
 import com.project.springBoot.util.dao.MemberDao;
 import com.project.springBoot.util.dto.Member;
 import com.project.springBoot.util.dto.ResultData;
